@@ -1,0 +1,95 @@
+.sub-main3 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 330px;
+  width: 450px;
+  padding: 30px 60px;
+
+  border-radius: 60px;
+  background-color: rgb(216, 231, 239);
+  margin: auto;
+}
+
+.forgot-button {
+  padding-top: 15px;
+}
+
+.email3 {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name3 {
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.link3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: blue;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  /* For tablets */
+  .main3 {
+    padding: 150px 0 150px 0;
+  }
+
+  .sub-main3 {
+    width: 50%;
+  }
+
+  .button3 {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For laptops */
+  .main3 {
+    padding: 100px 0 100px 0;
+  }
+
+  .sub-main3 {
+    width: 70%;
+  }
+
+  .button3 {
+    width: 250px;
+  }
+
+  .name3 {
+    padding-left: 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For phones */
+  .main3 {
+    padding: 50px 0 50px 0;
+  }
+
+  .sub-main3 {
+    width: 90%;
+  }
+
+  .button3 {
+    width: 200px;
+  }
+
+  .name3 {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+}

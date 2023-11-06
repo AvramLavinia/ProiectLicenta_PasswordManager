@@ -1,0 +1,101 @@
+.containerHe {
+  position: relative;
+  height: 50vh;
+  width: 400px;
+  padding: 30px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #111;
+  gap: 10px;
+  padding-bottom: 70px;
+  margin: auto;
+}
+
+.titlePass {
+  color: #666;
+  font-weight: 500;
+}
+
+.containerHe .inputBox {
+  position: relative;
+  width: 100%;
+}
+
+.containerHe .inputBox input {
+  position: relative;
+  width: 100%;
+  background: #222;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.containerHe .strengthMeter {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  display: none;
+}
+
+.containerHe.password-entered .strengthMeter {
+  display: block;
+}
+
+.containerHe.weak .strengthMeter {
+  width: 10%;
+  background: #f00;
+  filter: drop-shadow(0 0 5px #f00) drop-shadow(0 0 10px #f00)
+    drop-shadow(0 0 20px #f00);
+}
+
+.containerHe.medium .strengthMeter {
+  width: 50%;
+  background: #ffa500;
+  filter: drop-shadow(0 0 5px #ffa500) drop-shadow(0 0 10px #ffa500)
+    drop-shadow(0 0 20px #ffa500);
+}
+
+.containerHe.strong .strengthMeter {
+  width: 80%;
+  background: #0f0;
+  filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 10px #0f0)
+    drop-shadow(0 0 20px #0f0);
+}
+
+.containerHe .strengthText {
+  color: #fff;
+  transition: 0.5s;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.containerHe .passwordStrengthLabel {
+  filter: drop-shadow(0 0 5px #f099f0);
+}
+
+.show {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  width: 60px;
+  height: 70%;
+  background: #333;
+  border: 6px solid #222;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show::before {
+  content: "Show";
+  font-size: 0.6em;
+  color: #fff;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,153 @@
+.sub-main2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: 550px;
+  width: 35%;
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: rgb(216, 231, 239);
+  margin: auto;
+}
+
+.email2 {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name2 {
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.put2 {
+  padding: 10px;
+}
+
+.second-input2 {
+  padding: 0px;
+}
+
+.fourth-input2 {
+  padding: 0px;
+}
+
+.button1 {
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #00d4ff;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+
+.signup-button {
+  padding-top: 40px;
+}
+
+.link2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: blue;
+}
+
+/*tablets and phones*/
+
+@media only screen and (max-width: 768px) {
+  .sub-main2 {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sub-main2 {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sub-main2 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  input {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  input {
+    width: 150px;
+  }
+}
+
+.email2 {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+}
+
+.name2 {
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.second-input2 {
+  padding: 20px;
+}
+
+.button1 {
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #00d4ff;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .button1 {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button1 {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .button1 {
+    width: 200px;
+  }
+}
+
+.signup-button {
+  padding-top: 15px;
+}
+
+.link2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: blue;
+}
